@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@types/node-schedule": "^2.1.7",
+    "leonetti-axios-kucoin": "^0.0.9",
+    "node-schedule": "^2.1.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"module": "node16",
+		"moduleResolution": "node16",
+		"moduleDetection": "force",
+		"target": "ESNEXT", // Node.js 18
+		"lib": ["DOM", "DOM.Iterable", "ES2022"],
+		"resolveJsonModule": false, // ESM doesn't yet support JSON modules.
+		"rootDir": "./source" /* Specify the root folder within your source files. */,
+		"outDir": "./dist" /* Specify an output folder for all emitted files. */,
+
+		"esModuleInterop": true ,
+        "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+		/* Type Checking */
+		"strict": true /* Enable all strict type-checking options. */,
+
+		"skipLibCheck": true /* Skip type checking all .d.ts files. */
+	},
+	"include": ["source"]
+}
