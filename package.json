@@ -1,4 +1,15 @@
 {
+    "name":"leonetti-kucoin-entry",
+    "version":"0.0.1",
+    "description": "kucoin entry system",
+    "main":"./dist/index.js",
+    "scripts":{
+        "build":"tsc"
+    },
+  "author": {
+      "name": "Alex Leonetti",
+      "url": "https://github.com/AlexandreLeonetti"
+  },
   "dependencies": {
     "@types/node-schedule": "^2.1.7",
     "leonetti-axios-kucoin": "^0.0.9",

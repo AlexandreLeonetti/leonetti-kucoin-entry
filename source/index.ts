@@ -1,6 +1,4 @@
 import {Client} from "leonetti-axios-kucoin";
-console.log("hello ts");
-console.log(Client);
 import { sleep } from "@leonetti/utils";
 import schedule from "node-schedule";
 

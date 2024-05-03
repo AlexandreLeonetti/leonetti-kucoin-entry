@@ -4,8 +4,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const leonetti_axios_kucoin_1 = require("leonetti-axios-kucoin");
-console.log("hello ts");
-console.log(leonetti_axios_kucoin_1.Client);
 const utils_1 = require("@leonetti/utils");
 const node_schedule_1 = __importDefault(require("node-schedule"));
 const k1 = new leonetti_axios_kucoin_1.Client({
