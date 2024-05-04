@@ -57,6 +57,6 @@ const h4 = "55 59 3,7,11,15,19,23 * * *";
 const h8 = "50 59 7,15,23 * * *";
 const h12 = "50 59 11,23 * * *";
 const d1 = "47 59 23 * * *";
-let interval = node_schedule_1.default.scheduleJob(m5, function () {
-    entry("TON-USDT", 2.3, 0.03, 0.04, 5);
+let interval = node_schedule_1.default.scheduleJob(h8, function () {
+    entry("TON-USDT", 2.3, 0.03, 0.04, 5.2);
 });

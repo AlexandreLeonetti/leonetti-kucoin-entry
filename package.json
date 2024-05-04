@@ -1,19 +1,20 @@
 {
-    "name":"leonetti-kucoin-entry",
-    "version":"0.0.1",
+    "name": "leonetti-kucoin-entry",
+    "version": "0.0.1",
     "description": "kucoin entry system",
-    "main":"./dist/index.js",
-    "scripts":{
-        "build":"tsc",
-        "start":"node dist/index.js"
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js"
     },
-  "author": {
-      "name": "Alex Leonetti",
-      "url": "https://github.com/AlexandreLeonetti"
-  },
-  "dependencies": {
-    "@types/node-schedule": "^2.1.7",
-    "leonetti-axios-kucoin": "^0.0.9",
-    "node-schedule": "^2.1.1"
-  }
+    "author": {
+        "name": "Alex Leonetti",
+        "url": "https://github.com/AlexandreLeonetti"
+    },
+    "dependencies": {
+        "@types/node-schedule": "^2.1.7",
+        "leonetti-axios-kucoin": "^0.0.9",
+        "node-schedule": "^2.1.1",
+        "typescript": "^5.4.5"
+    }
 }
